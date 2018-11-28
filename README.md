@@ -1,27 +1,16 @@
-# Assignement2DataBinding
+# Reset Input Field Button
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+Input field accepts an input, and displays the contents as a Welcome Message to the visitor. At any point the visitor can reset the input field, however this works only when the field is not empty.
 
-## Development server
+## Why this Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project is an assignment solution I made while learning Angular on Udemy.
 
-## Code scaffolding
+## What I learnt
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. String Interpolation {{}}
+2. Property Binding []="expression"
+3. Event Binding ()="expression"
+4. 2 way binding using [(ngModel)]
+5. $event argument in event binding
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
