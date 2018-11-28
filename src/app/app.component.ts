@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignement2-data-binding';
+  username;
+  reset() {
+    this.username = "";
+  }
+  updateUsernameStatus() {
+    if (this.username != "") {
+      return false;
+    } else {
+      return true;
+    }
+  }
 }
